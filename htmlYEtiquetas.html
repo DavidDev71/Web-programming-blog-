@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevEnd</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/webfontkit-20230303-200431/stylesheet.css">
+
+</head>
+
+<body>
+    <div class="container-fluid p-0 div-custom">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-md ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems"
+                    aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuItems">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+        <div class="m-5 text-center pad-custom">
+            <h1 class="fw-bold">¿Qué es HTML y cómo funciona?</h1>
+            <h6 class="mb-4 text-secondary">Diseño y desarrollo web</h6>
+            <h5>David Aguirre</h5>
+            <h6 class="mb-5 text-secondary">24/02/2023</h6>
+            <p>¡Bienvenidxs a <strong>Devend</strong> un blog de programación para ti! Si estás incursionando en este
+                hermoso mundo de la programación seguramente has oído hablar de HTML, pero tal vez no sabes
+                exactamente qué es ni para qué sirve. ¡No te preocupes! Voy a tratar de responder
+                <strong>todas las preguntas que todos nos hicimos alguna vez.</strong>
+
+            </p>
+        </div>
+
+        <div class="img-1 m-5" id="html">
+
+        </div>
+
+        <div class="text-start custom-color mt-5 mb-3" id="article">
+            <section class="pad-custom">
+
+                <h2 class="text-start mb-4 fw-bold">
+                    ¿Qué es HTML?
+                </h2>
+                <p>
+                    Este Lenguaje de marcado de hipertexto o HyperText Markup Language por sus siglas en inglés (HTML)
+                    se
+                    utiliza para estructurar nuestras páginas web. Básicamente se trata de un <strong>conjunto de
+                        etiquetas</strong> que sirven para definir el texto y otros elementos que formarán parte de la
+                    página web
+                    como imágenes, listas, vídeos, links, etc.
+
+                </p>
+            </section>
+
+            <section class="pad-custom">
+                <h2 class="text-start fw-bold">
+                    ¿Qué son las etiquetas?
+                </h2>
+                <p>
+                    Una de las características principales de HTML es que utiliza etiquetas para definir la estructura
+                    del contenido que se muestra en la página. Éstos son básicamente comandos que indican al
+                    navegador cómo mostrar el contenido en la pantalla.
+
+                </p>
+
+                <div class="mb-2">
+                    <img src="img//etiqueta-ejemplo1.jpg" alt="imagen etiqueta parrafo" class="img-fluid img-custom">
+                </div>
+
+                <p>
+                    Las partes principales del elemento son:
+
+                <ol>
+                    <li> <b>La etiqueta de apertura:</b> consiste en el nombre del elemento (en este caso, p), encerrado
+                        por
+                        paréntesis angulares de apertura y cierre. Establece dónde comienza o empieza a tener efecto el
+                        elemento —en este caso, dónde es el comienzo del párrafo—.</li>
+                    <li> <b>La etiqueta de cierre:</b> es igual que la etiqueta de apertura, excepto que incluye una
+                        barra de
+                        cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso
+                        dónde termina el párrafo—.</li>
+                    <li> <b>El contenido:</b> este es el contenido del elemento, que en este caso es sólo texto.</li>
+                    <li> <b>El elemento:</b> la etiqueta de apertura, más la etiqueta de cierre, más el contenido
+                        equivale al
+                        elemento.</li>
+                </ol>
+
+                </p>
+
+
+            </section>
+            <section class="pad-custom">
+                <h2 class="text-start fw-bold">
+                    Etiquetas básicas de HTML:
+                </h2>
+
+                <ul>
+                    <li><code>&lt;head&gt;</code> para información sobre el documento.</li>
+                    <li><code>&lt;title&gt;</code> título en nuestro navegador.</li>
+                    <li><code>&lt;body&gt;</code> engloba nuestro código.</li>
+                    <li><code>&lt;H1&gt;…&lt;H6&gt;</code> para títulos dentro del contenido.</li>
+                    <li><code>&lt;p&gt;</code> para nuestros párrafos.</li>
+                    <li><code>&lt;strong&gt;</code> para poner el texto en negrita.</li>
+                    <li><code>&lt;br&gt;</code> para saltos de línea.</li>
+                    <li><code>&lt;div&gt;</code> división dentro del contenido.</li>
+                    <li><code>&lt;a&gt;</code> para enlaces.</li>
+                    <li><code>&lt;img&gt;</code> para añadir imágenes al documento.</li>
+                    <li><code>&lt;ol&gt;</code> para listas ordenadas, <code>&lt;ul&gt;</code> para listas desordenadas,
+                        <code>&lt;li&gt;</code> para elementos dentro de la lista.
+                    </li>
+                    
+                </ul>
+
+
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;head&gt; &lt;/head&gt;</code>
+                </h3>
+                <p>
+                    La parte superior del documento HTML, es donde podremos indicar <strong>los metadatos:</strong>
+                    título del documento,
+                    hojas de estilos, javaScript, CSS…
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;title&gt; &lt;/title&gt;</code>
+                </h3>
+                <p>
+                    Define el título del documento que se muestra en la <strong>pestaña de nuestro navegador</strong>. Sólo contiene texto.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;body&gt; &lt;/body&gt;</code>
+                </h3>
+                <p>
+                    Indica la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para
+                    cualquier documento ya que <strong>engloba todo el contenido visible</strong> del documento.
+                </p>
+            </section>
+            
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;H1&gt; &lt;/H1&gt;...&lt;H6&gt; &lt;/H6&gt;</code>
+                </h3>
+                <p>
+                    Hay diferentes niveles de títulos, del 1 al 6. Nos permiten indicar la
+                    <strong>importancia del título y para estructurar el contenido</strong>, tomamos H1 como un título
+                    más
+                    importante y de mayor tamaño que un H6 de menor importancia y más pequeño.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;p&gt; &lt;/p&gt;</code>
+                </h3>
+                <p>
+                    Anteriormente vimos esta etiqueta que es la más básica de HTML y sirve para nuestros
+                    <strong>párrafos.</strong>
+
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;strong&gt; &lt;/strong&gt;</code>
+                </h3>
+                <p>
+                    Si tienes mucho texto, es importante poder <strong>dar énfasis</strong> a una parte en concreto, con
+                    la etiqueta
+                    strong lo podemos hacer.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;br&gt;</code>
+                </h3>
+                <p>
+                    Con esta etiqueta HTML le podemos decir al navegador que viene un <strong>salto de línea.</strong>
+                    Nos sirve para
+                    hacer el texto más leíble. Aunque usar esta etiqueta <strong>no es recomendable,</strong> ya que nos
+                    puede traer
+                    problemas a la hora de darle formato a nuesto texto.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;div&gt; &lt;/div&gt;</code>
+                </h3>
+                <p>
+                    Un elemento que es usado mayoritariamente para <strong>agrupar</strong> otros elementos y actuar
+                    como plantilla de
+                    otros controles. Esta etiqueta nos ayuda a estructurar el documento en secciones.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;a&gt; &lt;/a&gt;</code>
+                </h3>
+                <p>
+                    Es una etiqueta que nos ayuda a poder crear un <strong>enlace a una página web.</strong> El atributo
+                    principal de la
+                    etiqueta HTML es <strong>href</strong>, donde pondremos el enlace al que queremos conectar. Otro
+                    atributo muy usado
+                    es <strong>target</strong>, el cual nos sirve para indicar si el enlace se abrirá en una nueva
+                    ventana o en la misma.
+                </p>
+            </section>
+            
+            
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;img&gt; &lt;/img&gt;</code>
+                </h3>
+                <p>
+                    Usamos la etiqueta IMG para <strong>mostrar imágenes</strong> dentro del contenido. Necesita el
+                    atributo <strong>src</strong> para
+                    funcionar, ya que será donde indicaremos la ruta donde se encuentra guardada la imagen.
+                </p>
+            </section>
+            <section class="pad-custom">
+                <h3 class="text-start fw-bold">
+                    <code>&lt;OL&gt; &lt;li&gt; &lt;/li&gt; &lt;/OL&gt; | &lt;UL&gt; &lt;li&gt; &lt;/li&gt; &lt;/UL&gt;</code>
+                </h3>
+                <p>
+                    Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin
+                    orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.
+                </p>
+            </section>
+            
+
+            <section class="pad-custom">
+                <h2 class="text-start fw-bold">
+                    Ejemplo de un HTML completo
+                </h2>
+                <div class="mb-2">
+                    <img src="img/ejemploCompleto.jpg" alt="ejemplo completo html" class="img-fluid">
+                </div>
+            </section>
+
+
+
+            <section class="pad-custom">
+                
+                <p class="fw-bold bye col-md-9">
+                    Espero que te haya resultado de ayuda esta información. Cuéntame y
+                    deja un comentario!
+                </p>
+
+
+            </section>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="div-custom" id="form-final">
+        <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Deja aquí tu comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="d-flex gap-3 mb-3">
+
+                <div class="mb-3 col-md-4">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Pepito">
+                </div>
+
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Guarda mi nombre, correo electrónico y web en este navegador para la próxima vez que comente.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                    ¡Suscríbeme a la lista de correo!
+                </label>
+            </div>
+
+            <button type="button" class="btn mt-5 pad-custom">Publicar comentario</button>
+
+        </form>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

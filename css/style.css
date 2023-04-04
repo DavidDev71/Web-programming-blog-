@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+
+
+* {
+  font-family: 'traveling__typewriterregular';
+}
+
+
+
+nav.navbar {
+  background-color: #edc444;
+  min-height: 100px;
+  padding: 0 50px 0 50px;
+ 
+}
+
+nav.navbar a {
+  margin-left: 20px;
+}
+
+
+
+a.nav-link {
+  font-weight:bold;
+  gap: 20px;
+}
+
+a.nav-link:hover {
+  color: #6E2594;
+}
+
+.div-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.pad-custom, div#article, div.align-custom {
+    width: 60%;
+}
+
+div.img-1 {
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+div.img-1#index {
+  background-image: url(../img/encendido-computadora-portatil-gris.jpg);
+}
+
+div.img-1#skills {
+  background-image: url(../img/mejorarSkills.jpg);
+}
+
+div.img-1#ia {
+  background-image: url(../img/inteligencia-artificial.jpg);
+}
+
+div.img-1#html {
+  background-image: url(../img/html5-logo);
+}
+
+.img-custom {
+  max-height: 200px;
+}
+
+h2 a {
+    font-weight:bold;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+p, li {
+    line-height: 2.4;
+}
+
+h2#links:hover {
+    color: #ECD444;
+}
+
+
+ul code {
+  color: #6E2594;
+  font-weight: bold;
+}
+
+h3 code {
+  color: black;
+  font-weight: bold;
+}
+
+
+p.bye {
+    margin-top: 5rem;
+}
+
+div#form-final {
+ background-color: #F8F9FA;
+ padding: 3rem 1rem 3rem 1rem;
+}
+
+button.btn, a.btn {
+  background-color: #6E2594;
+  border-color: #6E2594;
+  color: white;
+}
+
+button.btn:hover, a.btn:hover {
+  background-color: #edc444;
+}
+
+div.card-container {
+  width: 100%;
+  gap: 15px;
+  padding: 0 20px 20px 20px;
+  justify-content: center;
+  
+}
+
+div.card {
+  width: 18rem;
+  padding: 0;
+}
+
+img.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#insta a:hover svg {
+  fill: #BC2D52;
+}
+
+#twitter a:hover svg {
+  fill: #1D9BF0;
+}
+
+#facebook a:hover svg {
+  fill: #1873EB;
+}
+
+
+
+@media (max-width: 768px) {
+  div.pad-custom, div#article, div.align-custom {
+    width: 90%;
+}
+
+  p {
+    line-height: 1.8;
+  }
+
+}
